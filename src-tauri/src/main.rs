@@ -13,3 +13,9 @@ fn main() {
         .run(tauri::generate_context!())
         .expect("error while running tauri application");
 }
+
+/* fn ptrn() {
+    let foo = vec![1, 2, 3, 4, 5];
+    let res: Vec<_> = foo.iter().map(|n| n + 1).collect();
+    println!("{:?}", res);
+} */
